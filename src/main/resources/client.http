@@ -1,0 +1,16 @@
+POST http://127.0.0.1:8080/customer
+Content-Type: application/json
+
+{
+  "id": "200",
+  "name": "Mortex",
+  "phoneNumber": "Rahimi"
+}
+
+###
+GET http://127.0.0.1:8080/customers
+Content-Type: application/json
+
+###
+GET http://127.0.0.1:8080/customers/100
+Content-Type: application/json
