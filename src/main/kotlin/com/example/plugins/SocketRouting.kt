@@ -45,6 +45,7 @@ fun Application.configureSockets() {
                     frame as? Frame.Text ?: continue
                     val receivedText = frame.readText()
                     val textWithUsername = "[${thisConnection.name}]: $receivedText"
+                    println(textWithUsername)
                     connections.forEach {
                         it.session.send(textWithUsername)
                     }
