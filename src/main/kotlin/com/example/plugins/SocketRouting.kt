@@ -1,7 +1,6 @@
 package com.example.plugins
 
 import com.example.model.Customer
-import com.example.model.customers
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.request.*
